@@ -1,0 +1,49 @@
+body, html {
+    margin: 30px 50px;
+}
+img {
+    width: 5%;
+    border-radius: 10px;
+    padding: 10px 80px 10px 50px;
+}
+header {
+    display: flex;
+    background-color: #2e751c;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+h2 {
+    background-color: #9cf785;
+    padding-left: 2%;
+}
+section {
+    padding: 5%;
+}
+p {
+    padding-left: 5%;
+    text-align: justify;
+}
+li {
+    margin: 2px 0px 2x 0px;
+}
+@media all and (max-width: 768px) {
+    body, html {
+        margin: 5px;
+    }
+    header {
+        padding-left: 5px;
+    }
+    h1 {
+        font-size: 1.5em;
+        padding-left: 0%;
+    }
+    img {
+        width: 16%;
+    }
+    li {
+        text-align: justify;
+    }
+}
